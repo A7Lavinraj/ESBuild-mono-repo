@@ -131,3 +131,6 @@ dist
 
 # builds
 build
+
+# static files
+static

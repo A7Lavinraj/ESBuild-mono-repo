@@ -8,6 +8,9 @@ try {
     minify: true,
     outfile: "public/static/bundle.js",
     plugins: [postcss()],
+    define: {
+      "process.env.NODE_ENV": "'development'"
+    }
   });
 
   await context.watch();

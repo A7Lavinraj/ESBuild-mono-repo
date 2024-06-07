@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function App() {
-  return <div className="bg-red-400 text-white">App Component</div>;
+  return <div className="text-center">React + TS + ESBuild</div>;
 }
